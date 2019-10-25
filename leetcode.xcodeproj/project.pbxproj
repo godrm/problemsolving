@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		832BFCD22362DA6C00A59AE9 /* palindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832BFCD12362DA6C00A59AE9 /* palindromeNumber.swift */; };
 		83801AC023616CAF00911239 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83801ABF23616CAF00911239 /* main.swift */; };
 		83801AC923616D2200911239 /* two-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83801AC823616D2200911239 /* two-sum.swift */; };
 		83801ACB23616D6100911239 /* reverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83801ACA23616D6100911239 /* reverseInteger.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		832BFCD12362DA6C00A59AE9 /* palindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palindromeNumber.swift; sourceTree = "<group>"; };
 		83801ABC23616CAF00911239 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		83801ABF23616CAF00911239 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		83801AC823616D2200911239 /* two-sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "two-sum.swift"; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		832BFCD02362DA4300A59AE9 /* 9. Palindrome Number */ = {
+			isa = PBXGroup;
+			children = (
+				832BFCD12362DA6C00A59AE9 /* palindromeNumber.swift */,
+			);
+			path = "9. Palindrome Number";
+			sourceTree = "<group>";
+		};
 		83801AB323616CAF00911239 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 		83801ABE23616CAF00911239 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				832BFCD02362DA4300A59AE9 /* 9. Palindrome Number */,
 				83801AC623616D2200911239 /* 7.Reverse Integer */,
 				83801AC723616D2200911239 /* 1.two-sum */,
 				83801ABF23616CAF00911239 /* main.swift */,
@@ -143,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83801AC923616D2200911239 /* two-sum.swift in Sources */,
+				832BFCD22362DA6C00A59AE9 /* palindromeNumber.swift in Sources */,
 				83801ACB23616D6100911239 /* reverseInteger.swift in Sources */,
 				83801AC023616CAF00911239 /* main.swift in Sources */,
 			);

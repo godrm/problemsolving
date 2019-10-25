@@ -14,6 +14,12 @@ class Solution {
 
 let solve = Solution()
 
-print(solve.reverse(1534236469))
-print(solve.reverse(-123))
-print(solve.reverse(120))
+//print(solve.reverse(1534236469))
+//print(solve.reverse(-123))
+//print(solve.reverse(120))
+
+print(solve.isPalindrome(11))
+print(solve.isPalindrome(-121))
+print(solve.isPalindrome(0))
+print(solve.isPalindrome(123))
+print(solve.isPalindrome(121))
