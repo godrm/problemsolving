@@ -12,6 +12,7 @@
 		83801AC023616CAF00911239 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83801ABF23616CAF00911239 /* main.swift */; };
 		83801AC923616D2200911239 /* two-sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83801AC823616D2200911239 /* two-sum.swift */; };
 		83801ACB23616D6100911239 /* reverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83801ACA23616D6100911239 /* reverseInteger.swift */; };
+		83C0B7C9236534B300DE0A53 /* longestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C0B7C8236534B300DE0A53 /* longestCommonPrefix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		83801ABF23616CAF00911239 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		83801AC823616D2200911239 /* two-sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "two-sum.swift"; sourceTree = "<group>"; };
 		83801ACA23616D6100911239 /* reverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseInteger.swift; sourceTree = "<group>"; };
+		83C0B7C8236534B300DE0A53 /* longestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestCommonPrefix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		83801ABE23616CAF00911239 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				83C0B7C72365349F00DE0A53 /* 14. Longest Common Prefix */,
 				831A745A236486EC00BA4FA0 /* 13. Roman to Integer */,
 				832BFCD02362DA4300A59AE9 /* 9. Palindrome Number */,
 				83801AC623616D2200911239 /* 7.Reverse Integer */,
@@ -104,6 +107,14 @@
 				83801AC823616D2200911239 /* two-sum.swift */,
 			);
 			path = "1.two-sum";
+			sourceTree = "<group>";
+		};
+		83C0B7C72365349F00DE0A53 /* 14. Longest Common Prefix */ = {
+			isa = PBXGroup;
+			children = (
+				83C0B7C8236534B300DE0A53 /* longestCommonPrefix.swift */,
+			);
+			path = "14. Longest Common Prefix";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 				83801AC923616D2200911239 /* two-sum.swift in Sources */,
 				832BFCD22362DA6C00A59AE9 /* palindromeNumber.swift in Sources */,
 				83801ACB23616D6100911239 /* reverseInteger.swift in Sources */,
+				83C0B7C9236534B300DE0A53 /* longestCommonPrefix.swift in Sources */,
 				83801AC023616CAF00911239 /* main.swift in Sources */,
 				831A745C2364870100BA4FA0 /* romanToInteger.swift in Sources */,
 			);

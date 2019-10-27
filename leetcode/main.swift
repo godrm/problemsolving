@@ -28,4 +28,10 @@ let solve = Solution()
 //print(solve.romanToInt("XIV"))
 //print(solve.romanToInt("IX"))
 //print(solve.romanToInt("LVIII"))
-print(solve.romanToInt("MCMXCIV"))
+//print(solve.romanToInt("MCMXCIV"))
+
+//print(solve.longestCommonPrefix(["flower","flow","flight"]))
+//print(solve.longestCommonPrefix(["dog","racecar","car"]))
+//print(solve.longestCommonPrefix([]))
+print(solve.longestCommonPrefix(["c","c"]))
+
