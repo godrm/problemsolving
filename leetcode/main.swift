@@ -33,5 +33,24 @@ let solve = Solution()
 //print(solve.longestCommonPrefix(["flower","flow","flight"]))
 //print(solve.longestCommonPrefix(["dog","racecar","car"]))
 //print(solve.longestCommonPrefix([]))
-print(solve.longestCommonPrefix(["c","c"]))
+//print(solve.longestCommonPrefix(["c","c"]))
+
+let list1One = ListNode(1)
+let list1Two = ListNode(2)
+let list1Four = ListNode(4)
+list1One.next = list1Two
+list1Two.next = list1Four
+
+let list2One = ListNode(1)
+let list2Three = ListNode(3)
+let list2Four = ListNode(4)
+//list2One.next = list2Three
+//list2Three.next = list2Four
+
+let head = solve.mergeTwoLists(nil, list2One)
+var next : ListNode? = head
+while(next != nil) {
+    print((next?.val)!, "->")
+    next = next?.next
+}
 

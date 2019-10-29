@@ -1,16 +1,19 @@
-class Solution {
-    private var stack = [String]()
-    private let opening : Set<String> = ["(", "{", "["]
-    private let closing : Set<String> = [")", "}", "]"]
-    private let pair = [")":"(", "}":"{", "]":"["]
+struct ValidParenthesis {
+    static let opening : Set<String> = ["(", "{", "["]
+    static let closing : Set<String> = [")", "}", "]"]
+    static let pair = [")":"(", "}":"{", "]":"["]
+}
+
+extension Solution {
     func isValid(_ s: String) -> Bool {
+        var stack = [String]()
         for char in s {
-            if self.opening.contains(String(char)) {
+            if ValidParenthesis.opening.contains(String(char)) {
                 stack.append(String(char))
             }
-            else if self.closing.contains(String(char)) {
+            else if ValidParenthesis.closing.contains(String(char)) {
                 if let lastone = stack.popLast() {
-                    let hasPair = (pair[String(char)] ?? "") == lastone
+                    let hasPair = (ValidParenthesis.pair[String(char)] ?? "") == lastone
                     if !hasPair { return false }
                 }
                 else {
