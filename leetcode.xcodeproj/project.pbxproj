@@ -17,6 +17,7 @@
 		83C0B7C9236534B300DE0A53 /* longestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C0B7C8236534B300DE0A53 /* longestCommonPrefix.swift */; };
 		83C0B7CC2369DB1100DE0A53 /* removeDuplicatesArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C0B7CB2369DB1100DE0A53 /* removeDuplicatesArray.swift */; };
 		83DF60F1236AEF2900BBD4D0 /* removeElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF60F0236AEF2900BBD4D0 /* removeElement.swift */; };
+		83DF60F4236BCF3A00BBD4D0 /* implement-strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DF60F3236BCF3A00BBD4D0 /* implement-strStr.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		83C0B7C8236534B300DE0A53 /* longestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestCommonPrefix.swift; sourceTree = "<group>"; };
 		83C0B7CB2369DB1100DE0A53 /* removeDuplicatesArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDuplicatesArray.swift; sourceTree = "<group>"; };
 		83DF60F0236AEF2900BBD4D0 /* removeElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeElement.swift; sourceTree = "<group>"; };
+		83DF60F3236BCF3A00BBD4D0 /* implement-strStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "implement-strStr.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		83801ABE23616CAF00911239 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				83DF60F2236BCF1D00BBD4D0 /* 28. Implement strStr */,
 				83DF60EF236AEF1B00BBD4D0 /* 27. Remove Element */,
 				83C0B7CA2369DAFD00DE0A53 /* 26. Remove Duplicates from Sorted Array */,
 				8377BCB52368228F00BE44D2 /* 21. Merge Two Sorted Lists */,
@@ -159,6 +162,14 @@
 				83DF60F0236AEF2900BBD4D0 /* removeElement.swift */,
 			);
 			path = "27. Remove Element";
+			sourceTree = "<group>";
+		};
+		83DF60F2236BCF1D00BBD4D0 /* 28. Implement strStr */ = {
+			isa = PBXGroup;
+			children = (
+				83DF60F3236BCF3A00BBD4D0 /* implement-strStr.swift */,
+			);
+			path = "28. Implement strStr";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +235,7 @@
 				83DF60F1236AEF2900BBD4D0 /* removeElement.swift in Sources */,
 				83801ACB23616D6100911239 /* reverseInteger.swift in Sources */,
 				83C0B7C9236534B300DE0A53 /* longestCommonPrefix.swift in Sources */,
+				83DF60F4236BCF3A00BBD4D0 /* implement-strStr.swift in Sources */,
 				83C0B7CC2369DB1100DE0A53 /* removeDuplicatesArray.swift in Sources */,
 				83801AC023616CAF00911239 /* main.swift in Sources */,
 				8377BCB7236822AD00BE44D2 /* mergeSortedList.swift in Sources */,
