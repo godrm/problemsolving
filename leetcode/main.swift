@@ -54,6 +54,8 @@ let solve = Solution()
 //    next = next?.next
 //}
 
-var list = [1,1,1,2,2,3,3,3]
-print(solve.removeDuplicates(&list))
+//var list = [1,1,1,2,2,3,3,3]
+//print(solve.removeDuplicates(&list))
 
+var list = [3,2,2,3]
+print(solve.removeElement(&list, 3))
