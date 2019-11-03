@@ -65,7 +65,11 @@ let solve = Solution()
 
 //var list = [3,2,2,3]
 //print(solve.removeElement(&list, 3))
+//
+//print(solve.strStr("hello", "ll"))
+//print(solve.strStr("aaaaa", "baa"))
+//print(solve.strStr("a", "a"))
 
-print(solve.strStr("hello", "ll"))
-print(solve.strStr("aaaaa", "baa"))
-print(solve.strStr("a", "a"))
+print(solve.searchInsert([1,3,5,6], 5))
+print(solve.searchInsert([1,3,5,6], 2))
+print(solve.searchInsert([1,3,5,6], 7))
