@@ -76,6 +76,7 @@ let solve = Solution()
 
 //print(solve.incompletionPlayers(participant: ["leo", "kiki", "eden"], completion: ["eden", "kiki"]))
 
+print(solve.runLength("x"))
 print(solve.runLength("aabbaccc"))
 print(solve.runLength("ababcdcdababcdcd"))
 print(solve.runLength("abcabcdede"))

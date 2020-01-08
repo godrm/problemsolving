@@ -30,7 +30,7 @@ extension Solution {
     }
     
     func runLength(_ s:String) -> Int {
-        let max = Int(s.count / 2)
+        let max = (s.count > 1) ? Int(s.count / 2) : 1
         var result = s.count
         var compressed = ""
         for round in 1...max {
