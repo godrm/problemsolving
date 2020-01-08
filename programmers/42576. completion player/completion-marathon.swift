@@ -10,8 +10,10 @@ import Foundation
 
 extension Solution {
     func incompletionPlayers(participant : [String], completion : [String]) -> String {
-        let participantGroup = Set(participant)
-        let incompletionGroup = participantGroup.subtracting(completion)
-        return incompletionGroup.first ?? ""
+        let participantGroup =  NSCountedSet(array:participant)
+        for name in completion {
+            participantGroup.remove(name)
+        }
+        return participantGroup.anyObject() as? String ?? ""
     }
 }
