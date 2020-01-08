@@ -70,6 +70,14 @@ let solve = Solution()
 //print(solve.strStr("aaaaa", "baa"))
 //print(solve.strStr("a", "a"))
 
-print(solve.searchInsert([1,3,5,6], 5))
-print(solve.searchInsert([1,3,5,6], 2))
-print(solve.searchInsert([1,3,5,6], 7))
+//print(solve.searchInsert([1,3,5,6], 5))
+//print(solve.searchInsert([1,3,5,6], 2))
+//print(solve.searchInsert([1,3,5,6], 7))
+
+//print(solve.incompletionPlayers(participant: ["leo", "kiki", "eden"], completion: ["eden", "kiki"]))
+
+print(solve.runLength("aabbaccc"))
+print(solve.runLength("ababcdcdababcdcd"))
+print(solve.runLength("abcabcdede"))
+print(solve.runLength("abcabcabcabcdededededede"))
+print(solve.runLength("xababcdcdababcdcd"))
