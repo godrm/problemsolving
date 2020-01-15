@@ -74,8 +74,8 @@ let solve = Solution()
 //print(solve.searchInsert([1,3,5,6], 2))
 //print(solve.searchInsert([1,3,5,6], 7))
 
-print(solve.incompletionPlayers(participant: ["leo", "kiki", "eden"], completion: ["eden", "kiki"]))
-print(solve.incompletionPlayers(participant: ["leo", "kiki", "eden", "kiki"], completion: ["leo", "eden", "kiki"]))
+//print(solve.incompletionPlayers(participant: ["leo", "kiki", "eden"], completion: ["eden", "kiki"]))
+//print(solve.incompletionPlayers(participant: ["leo", "kiki", "eden", "kiki"], completion: ["leo", "eden", "kiki"]))
 
 //
 //print(solve.runLength("x"))
@@ -84,3 +84,5 @@ print(solve.incompletionPlayers(participant: ["leo", "kiki", "eden", "kiki"], co
 //print(solve.runLength("abcabcdede"))
 //print(solve.runLength("abcabcabcabcdededededede"))
 //print(solve.runLength("xababcdcdababcdcd"))
+
+print(solve.knumber([1, 5, 2, 6, 3, 7, 4], [[2, 5, 3], [4, 4, 1], [1, 7, 3]]))
