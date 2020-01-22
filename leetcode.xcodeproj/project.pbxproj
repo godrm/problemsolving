@@ -10,6 +10,8 @@
 		83182ED423CEC93900E73577 /* kNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83182ED323CEC93900E73577 /* kNumber.swift */; };
 		831A745C2364870100BA4FA0 /* romanToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A745B2364870100BA4FA0 /* romanToInteger.swift */; };
 		832BFCD22362DA6C00A59AE9 /* palindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832BFCD12362DA6C00A59AE9 /* palindromeNumber.swift */; };
+		835804B423D7F63F00156470 /* singleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835804B323D7F63F00156470 /* singleNumber.swift */; };
+		835804B723D7F67300156470 /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835804B623D7F67300156470 /* HappyNumber.swift */; };
 		8377BCB42368222F00BE44D2 /* validParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377BCB32368222E00BE44D2 /* validParentheses.swift */; };
 		8377BCB7236822AD00BE44D2 /* mergeSortedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377BCB6236822AD00BE44D2 /* mergeSortedList.swift */; };
 		83801AC023616CAF00911239 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83801ABF23616CAF00911239 /* main.swift */; };
@@ -40,6 +42,8 @@
 		83182ED323CEC93900E73577 /* kNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kNumber.swift; sourceTree = "<group>"; };
 		831A745B2364870100BA4FA0 /* romanToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = romanToInteger.swift; sourceTree = "<group>"; };
 		832BFCD12362DA6C00A59AE9 /* palindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palindromeNumber.swift; sourceTree = "<group>"; };
+		835804B323D7F63F00156470 /* singleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleNumber.swift; sourceTree = "<group>"; };
+		835804B623D7F67300156470 /* HappyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
 		8377BCB32368222E00BE44D2 /* validParentheses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = validParentheses.swift; sourceTree = "<group>"; };
 		8377BCB6236822AD00BE44D2 /* mergeSortedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeSortedList.swift; sourceTree = "<group>"; };
 		83801ABC23616CAF00911239 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +94,14 @@
 			path = "9. Palindrome Number";
 			sourceTree = "<group>";
 		};
+		835804B523D7F65500156470 /* 202. Happy Number */ = {
+			isa = PBXGroup;
+			children = (
+				835804B623D7F67300156470 /* HappyNumber.swift */,
+			);
+			path = "202. Happy Number";
+			sourceTree = "<group>";
+		};
 		8377BCB22368222E00BE44D2 /* 20. Valid Parentheses */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +138,8 @@
 		83801ABE23616CAF00911239 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				835804B523D7F65500156470 /* 202. Happy Number */,
+				83DBFE4F23D7F5FB001E3788 /* 136. Single Number */,
 				83D505EC236EBDA000E8F4DF /* 35. Search Insert Position */,
 				83DF60F2236BCF1D00BBD4D0 /* 28. Implement strStr */,
 				83DF60EF236AEF1B00BBD4D0 /* 27. Remove Element */,
@@ -180,6 +194,14 @@
 				83D505ED236EBDB100E8F4DF /* searchInsertPosition.swift */,
 			);
 			path = "35. Search Insert Position";
+			sourceTree = "<group>";
+		};
+		83DBFE4F23D7F5FB001E3788 /* 136. Single Number */ = {
+			isa = PBXGroup;
+			children = (
+				835804B323D7F63F00156470 /* singleNumber.swift */,
+			);
+			path = "136. Single Number";
 			sourceTree = "<group>";
 		};
 		83DCDC7423C563B0008FCA7B /* programmers */ = {
@@ -289,7 +311,9 @@
 				83182ED423CEC93900E73577 /* kNumber.swift in Sources */,
 				83801ACB23616D6100911239 /* reverseInteger.swift in Sources */,
 				83C0B7C9236534B300DE0A53 /* longestCommonPrefix.swift in Sources */,
+				835804B723D7F67300156470 /* HappyNumber.swift in Sources */,
 				83DF60F4236BCF3A00BBD4D0 /* implement-strStr.swift in Sources */,
+				835804B423D7F63F00156470 /* singleNumber.swift in Sources */,
 				83C0B7CC2369DB1100DE0A53 /* removeDuplicatesArray.swift in Sources */,
 				83801AC023616CAF00911239 /* main.swift in Sources */,
 				8377BCB7236822AD00BE44D2 /* mergeSortedList.swift in Sources */,
